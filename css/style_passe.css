@@ -1,0 +1,203 @@
+
+
+@media all and (max-width: 900px) {
+article {
+    width: 48%;
+  }
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+  article {
+	float:left;
+	width: 45%;
+	margin: 10px 1%;
+	padding: 1%;
+	background-color: white;
+	position:absolute;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#menu li {
+	font-size : 20px;
+	list-style : none;
+	display : inline;
+	margin : 0;
+	padding : 0;
+	text-align : center;
+	padding-left : 60px;
+}
+
+.lien_menu{
+	transition: color 0.5s;
+}
+
+.lien_menu:hover{
+	color : #0B576E ;
+}
+
+
+#nav{
+	position:fixed;
+	background-color:black;
+	z-index:999;
+}
+
+
+.image {
+	display: float;
+	float : left;
+	margin-right: 15px;
+}
+
+h1 {
+	text-align: center;
+	font-size : 50px;
+	text-decoration: underline;
+	color: white;
+	padding-top : 100px;
+	padding-bottom :20px;
+}
+
+h2 {
+	font-size: 30px;
+	text-decoration: underline;
+	padding-bottom:15px;
+}
+
+p {
+	font-size: 17px;
+	text-decoration: none;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background-image: url("../image-vidéo/3.png");
+	display: inline-block;
+}
+
+.img_a3{
+	display:float;
+	float:right;
+	margin-left:15px;
+}
+
+#article_1{
+	top: 200px;
+	left: 30px;
+}
+
+#article_2{
+	top: 200px;
+}
+
+#article_3{
+	left: 30px;
+}
+
+#article_5{
+	left: 30px;
+}
+#article_6{
+	left: 30px;
+}
+
+.img_a4{
+	display:float;
+	float:right;
+	margin-left:15px;
+}
+
+.img_a5{
+	display:float;
+	float:left;
+	margin-right: 15px;
+}
+
+.img_a6{
+	display:float;
+	float:left;
+	margin-right: 15px;
+}
+
+footer{
+	position:absolute;
+	background-color: rgba(0,0,0,0);
+}
+
+
+hr{
+	position : absolute;
+    left: 31%;
+    height: 4px;
+    width: 43%;
+    background-color: white;
+	border:none;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#foot_para{
+	text-align: right;
+	font-size : 16px;
+	padding-right: 30px;
+	color: white;
+	text-shadow: 11px 10px 7px #000000;
+}
+
+#facebook{
+	position:absolute;
+	left : 23%;
+	transition: opacity 0.5s;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#facebook_blue{
+	position:absolute;
+	left : 23%
+}
+
+#twitter{
+	position: absolute;
+	left : 13%;
+	transition: opacity 0.5s;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#twitter_blue{
+	position:absolute;
+	left: 13%;
+}
+
+#youtube{
+	position: absolute;
+	left : 3%;
+	transition: opacity 0.5s;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#youtube_red{
+	position: absolute;
+	left : 3%;
+}
+
+
+#facebook:hover
+{
+	opacity:0;
+}
+
+#twitter:hover {
+	opacity:0 ;
+}
+
+#youtube:hover{
+	opacity:0;
+}

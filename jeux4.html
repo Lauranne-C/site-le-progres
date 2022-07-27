@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>jeu 4</title>
+		<link rel="shortcut icon" type="image/png" href="image-vidéo/logo_fav.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="css/style_jeux.css"/>
+		<link rel="stylesheet" href="css/jeux_4.css"/>
+		<link rel="stylesheet" href="css/jeux.css"/>
+	</head>
+
+	
+	<header>
+		<nav id="nav">
+		<ul id = "menu">
+			<li><a class="lien_menu" href="jeux.html">Retour</a></li>
+			<li><a class="lien_menu" href="jeux3.html">Jeu précédent</a></li>
+			<li><a class="lien_menu" href="jeux5.html">Jeu suivant</a></li>
+		</ul>
+		</nav>
+	</header>
+
+<body onload="StartUp()" id="TheBody" >
+	<section id="page">
+	<h1 id ="title">Jeux</h1>
+	<h2 id ="t2">Texte à trous sur la vue du passé</h2>
+<!-- BeginTopNavButtons -->
+
+
+
+<!-- EndTopNavButtons -->
+
+<div class="Titles">
+	<h2 class="ExerciseTitle"></h2>
+
+
+
+</div>
+
+<div id="InstructionsDiv" class="StdDiv">
+	<div id="Instructions">Compl&#x00E8;te les trous.</div>
+</div>
+
+
+
+
+
+<div id="MainDiv" class="StdDiv">
+
+<!-- These top buttons hidden; reveal if required -->
+<!--
+<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;V&#x00E9;rifier&nbsp;</button>
+
+
+<button class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowHint()">&nbsp;Hint&nbsp;</button>
+
+
+ -->
+ 
+<div id="ClozeDiv">
+<form id="Cloze" method="post" action="" onsubmit="return false;">
+<div class="ClozeBody">
+- Les gens pensaient que dans le futur nous pourrions, &#x00E0; l'aide d'un <span class="GapSpan" id="GapSpan0"><input type="text" id="Gap0" onfocus="TrackFocus(0)" onblur="LeaveGap()" class="GapBox" size="13"></input></span>, &#x00E9;couter la gazette locale.<br />- La dict&#x00E9;e automatis&#x00E9;e fait ici allusion à ce qu'on appelle la <span class="GapSpan" id="GapSpan1"><input type="text" id="Gap1" onfocus="TrackFocus(1)" onblur="LeaveGap()" class="GapBox" size="15"></input></span> ou encore la <span class="GapSpan" id="GapSpan2"><input type="text" id="Gap2" onfocus="TrackFocus(2)" onblur="LeaveGap()" class="GapBox" size="21"></input></span>.<br />- Une peinture nous montre des pompiers &#x00E9;quip&#x00E9;s <span class="GapSpan" id="GapSpan3"><input type="text" id="Gap3" onfocus="TrackFocus(3)" onblur="LeaveGap()" class="GapBox" size="7"></input></span> leurs permettant de voler litt&#x00E9;rallement au secours des gens.<br />- Une soci&#x00E9;t&#x00E9; japonaise a imagin&#x00E9; un <span class="GapSpan" id="GapSpan4"><input type="text" id="Gap4" onfocus="TrackFocus(4)" onblur="LeaveGap()" class="GapBox" size="6"></input></span> capable de s'occuper des enfants et m&#x00EA;me d'allaiter les plus petits.<br />- Les gens ont imagin&#x00E9;s beaucoup de moyens de se d&#x00E9;placer, notamment un certain nombre de <span class="GapSpan" id="GapSpan5"><input type="text" id="Gap5" onfocus="TrackFocus(5)" onblur="LeaveGap()" class="GapBox" size="17"></input></span> ou de d&#x00E9;placement <span class="GapSpan" id="GapSpan6"><input type="text" id="Gap6" onfocus="TrackFocus(6)" onblur="LeaveGap()" class="GapBox" size="11"></input></span>.
+</div>
+</form>
+</div>
+
+
+
+<button id="CheckButton2" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;V&#x00E9;rifier&nbsp;</button>
+
+
+<button class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowHint()">&nbsp;Hint&nbsp;</button>
+
+
+</div>
+
+
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="HideFeedback(); return false;">&nbsp;OK&nbsp;</button>
+</div>
+
+<!-- BeginBottomNavButtons -->
+
+
+
+<!-- EndBottomNavButtons -->
+
+<!-- BeginSubmissionForm -->
+
+<!-- EndSubmissionForm -->
+
+
+</section>
+	<footer id="foot">
+			<a href=""><img id="facebook_blue" src="image-vidéo/facebook_blue.png" /></a>
+            <a href="http://facebook.com"><img id="facebook" src="image-vidéo/facebook.png" /></a>
+			<a href=""><img id="twitter_blue" src="image-vidéo/twitter_blue.png" /></a>
+            <a href="http://twitter.com"><img id="twitter" src="image-vidéo/twitter.png" /></a>
+			<a href=""><img id="youtube_red" src="image-vidéo/youtube_red.png" /></a>
+            <a href="http://youtube.com"><img id="youtube" src="image-vidéo/youtube.png" /></a>
+			<hr id="barre">
+			<p id="foot_para"> Site créé par Cravatte Lauranne et Delatte Alexandre</p>
+	</footer>
+	</body>
+	<script src="js/size/size.js"></script>
+	<script src="js/jeux/jeux4.js" type="text/javascript"></script>
+
+</html>

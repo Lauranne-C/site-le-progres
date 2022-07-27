@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#menu li {
+	font-size : 20px;
+	list-style : none;
+	display : inline;
+	margin : 0;
+	padding : 0;
+	text-align : center;
+	padding-left : 60px;
+}
+
+.lien_menu{
+	transition: color 0.5s;
+}
+
+.lien_menu:hover{
+	color : #0B576E ;
+}
+
+nav{
+	
+	background-color :black ;
+	z-index:999;
+	position: fixed;
+}
+
+
+
+body {
+	background-image: url("../image-vidéo/4.png");
+	z-index: 998 ;
+	display:inline-block;
+}
+
+
+h1 {
+	text-align: center;
+	font-size : 50px;
+	text-decoration: underline;
+	color: white;
+	padding-top : 100px;
+	padding-bottom :20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+footer{
+	position:absolute;
+	background-color: rgba(0,0,0,0);
+}
+
+
+hr{
+	position : absolute;
+    left: 31%;
+    height: 4px;
+    width: 43%;
+    background-color: white;
+	border:none;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#foot_para{
+	text-align: right;
+	font-size : 16px;
+	padding-right: 30px;
+	color: white;
+	text-shadow: 11px 10px 7px #000000;
+}
+
+#facebook{
+	position:absolute;
+	left : 23%;
+	transition: opacity 0.5s;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#facebook_blue{
+	position:absolute;
+	left : 23%
+}
+
+#twitter{
+	position: absolute;
+	left : 13%;
+	transition: opacity 0.5s;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#twitter_blue{
+	position:absolute;
+	left: 13%;
+}
+
+#youtube{
+	position: absolute;
+	left : 3%;
+	transition: opacity 0.5s;
+	box-shadow: 11px 10px 27px 5px #000000;
+}
+
+#youtube_red{
+	position: absolute;
+	left : 3%;
+}
+
+
+#facebook:hover
+{
+	opacity:0;
+}
+
+#twitter:hover {
+	opacity:0 ;
+}
+
+#youtube:hover{
+	opacity:0;
+}
+
+/* Box Model */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* Basic */
+body, html, .img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Gallery Theme */
+.col-1-3:after,
+.gallery-box:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.col-1-3 {
+  width: 100%;
+  float: left;
+}
+.gallery-box img {
+  width: 100%;
+  vertical-align: top;
+  transition: all .5s ease;
+}
+.gallery-box:hover img {
+  opacity: .2;
+}
+.gallery-box img:hover {
+  opacity: 1;
+}
+@media (min-width: 480px) {
+  .col-1-3 {
+    width: 50%;
+  }
+  .col-1-3:first-of-type {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .col-1-3,
+  .col-1-3:first-of-type {
+    width: 33.33%;
+  }
+}
+

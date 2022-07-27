@@ -1,0 +1,5 @@
+body {
+	background-image: url("../image-vidéo/5.png");
+	z-index: 1 ;
+	display: inline-block;
+}
